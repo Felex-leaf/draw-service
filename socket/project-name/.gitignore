@@ -1,0 +1,26 @@
+
+# NPM
+/node_modules/
+/npm-debug.log*
+.dist
+/logs
+hash.json
+
+# Build
+/dev/build
+/dev/.release
+# SASS cache
+.sass-cache/
+# Test
+/test/screenshot/
+
+# Global (additional insurance for someone who haven't add this in global gitignore)
+.DS_Store
+/.idea
+/.history
+/dist
+.vscode/
+
+
+# 覆盖率报告
+coverage-ts
