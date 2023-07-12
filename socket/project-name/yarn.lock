@@ -423,6 +423,11 @@
   resolved "http://r.npm.sankuai.com/@humanwhocodes/object-schema/download/@humanwhocodes/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha1-tSBSnsIdjllFoYUd/Rwy6U45/0U=
 
+"@ioredis/commands@^1.1.1":
+  version "1.2.0"
+  resolved "http://r.npm.sankuai.com/@ioredis/commands/download/@ioredis/commands-1.2.0.tgz#6d61b3097470af1fdbbe622795b8921d42018e11"
+  integrity sha1-bWGzCXRwrx/bvmInlbiSHUIBjhE=
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "http://r.npm.sankuai.com/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -731,6 +736,16 @@
     iterare "1.2.1"
     tslib "2.6.0"
 
+"@nestjs/common@^7.4.4":
+  version "7.6.18"
+  resolved "http://r.npm.sankuai.com/@nestjs/common/download/@nestjs/common-7.6.18.tgz#d89e6d248985eec13af60507a8725cb2142d660a"
+  integrity sha1-2J5tJImF7sE69gUHqHJcshQtZgo=
+  dependencies:
+    axios "0.21.1"
+    iterare "1.2.1"
+    tslib "2.2.0"
+    uuid "8.3.2"
+
 "@nestjs/core@^10.0.0":
   version "10.0.5"
   resolved "http://r.npm.sankuai.com/@nestjs/core/download/@nestjs/core-10.0.5.tgz#d9f0c1ccdab0aafda8d810d11538b727f01557e2"
@@ -743,6 +758,28 @@
     path-to-regexp "3.2.0"
     tslib "2.6.0"
 
+"@nestjs/core@^7.4.4":
+  version "7.6.18"
+  resolved "http://r.npm.sankuai.com/@nestjs/core/download/@nestjs/core-7.6.18.tgz#36448f0ae7f7d08f032e1e7e53b4a4c82ae844d7"
+  integrity sha1-NkSPCuf30I8DLh5+U7SkyCroRNc=
+  dependencies:
+    "@nuxtjs/opencollective" "0.3.2"
+    fast-safe-stringify "2.0.7"
+    iterare "1.2.1"
+    object-hash "2.1.1"
+    path-to-regexp "3.2.0"
+    tslib "2.2.0"
+    uuid "8.3.2"
+
+"@nestjs/microservices@^8.2.4":
+  version "8.2.4"
+  resolved "http://r.npm.sankuai.com/@nestjs/microservices/download/@nestjs/microservices-8.2.4.tgz#b81c21396f53251fb756a4a2a9d6475e9c2a6a41"
+  integrity sha1-uBwhOW9TJR+3VqSiqdZHXpwqakE=
+  dependencies:
+    iterare "1.2.1"
+    json-socket "0.3.0"
+    tslib "2.3.1"
+
 "@nestjs/platform-express@^10.0.0":
   version "10.0.5"
   resolved "http://r.npm.sankuai.com/@nestjs/platform-express/download/@nestjs/platform-express-10.0.5.tgz#3c875dd72e0bd8f9d8866a86d04d162379a6808a"
@@ -753,6 +790,14 @@
     express "4.18.2"
     multer "1.4.4-lts.1"
     tslib "2.6.0"
+
+"@nestjs/platform-socket.io@^8.2.4":
+  version "8.2.4"
+  resolved "http://r.npm.sankuai.com/@nestjs/platform-socket.io/download/@nestjs/platform-socket.io-8.2.4.tgz#52b59d1715c8490a71854d86f150e267128b19b0"
+  integrity sha1-UrWdFxXISQpxhU2G8VDiZxKLGbA=
+  dependencies:
+    socket.io "4.4.0"
+    tslib "2.3.1"
 
 "@nestjs/schematics@^10.0.0", "@nestjs/schematics@^10.0.1":
   version "10.0.1"
@@ -771,6 +816,15 @@
   integrity sha1-McrHuYFjUd/3cGs/+a8Dh89gj0s=
   dependencies:
     tslib "2.6.0"
+
+"@nestjs/websockets@^8.2.4":
+  version "8.2.4"
+  resolved "http://r.npm.sankuai.com/@nestjs/websockets/download/@nestjs/websockets-8.2.4.tgz#ff18cf6e4d770e15eee02a0ce7c629fc31b755c2"
+  integrity sha1-/xjPbk13DhXu4CoM58Yp/DG3VcI=
+  dependencies:
+    iterare "1.2.1"
+    object-hash "2.2.0"
+    tslib "2.3.1"
 
 "@nicolo-ribaudo/semver-v6@^6.3.3":
   version "6.3.3"
@@ -807,6 +861,40 @@
     consola "^2.15.0"
     node-fetch "^2.6.1"
 
+"@redis/bloom@1.2.0":
+  version "1.2.0"
+  resolved "http://r.npm.sankuai.com/@redis/bloom/download/@redis/bloom-1.2.0.tgz#d3fd6d3c0af3ef92f26767b56414a370c7b63b71"
+  integrity sha1-0/1tPArz75LyZ2e1ZBSjcMe2O3E=
+
+"@redis/client@1.5.8":
+  version "1.5.8"
+  resolved "http://r.npm.sankuai.com/@redis/client/download/@redis/client-1.5.8.tgz#a375ba7861825bd0d2dc512282b8bff7b98dbcb1"
+  integrity sha1-o3W6eGGCW9DS3FEigri/97mNvLE=
+  dependencies:
+    cluster-key-slot "1.1.2"
+    generic-pool "3.9.0"
+    yallist "4.0.0"
+
+"@redis/graph@1.1.0":
+  version "1.1.0"
+  resolved "http://r.npm.sankuai.com/@redis/graph/download/@redis/graph-1.1.0.tgz#cc2b82e5141a29ada2cce7d267a6b74baa6dd519"
+  integrity sha1-zCuC5RQaKa2izOfSZ6a3S6pt1Rk=
+
+"@redis/json@1.0.4":
+  version "1.0.4"
+  resolved "http://r.npm.sankuai.com/@redis/json/download/@redis/json-1.0.4.tgz#f372b5f93324e6ffb7f16aadcbcb4e5c3d39bda1"
+  integrity sha1-83K1+TMk5v+38Wqty8tOXD05vaE=
+
+"@redis/search@1.1.3":
+  version "1.1.3"
+  resolved "http://r.npm.sankuai.com/@redis/search/download/@redis/search-1.1.3.tgz#b5a6837522ce9028267fe6f50762a8bcfd2e998b"
+  integrity sha1-taaDdSLOkCgmf+b1B2KovP0umYs=
+
+"@redis/time-series@1.0.4":
+  version "1.0.4"
+  resolved "http://r.npm.sankuai.com/@redis/time-series/download/@redis/time-series-1.0.4.tgz#af85eb080f6934580e4d3b58046026b6c2b18717"
+  integrity sha1-r4XrCA9pNFgOTTtYBGAmtsKxhxc=
+
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
   resolved "http://r.npm.sankuai.com/@sinclair/typebox/download/@sinclair/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
@@ -825,6 +913,16 @@
   integrity sha1-s+Mio0xfJuMYTn9hFWlfKZwbEZQ=
   dependencies:
     "@sinonjs/commons" "^3.0.0"
+
+"@socket.io/redis-adapter@^7.1.0":
+  version "7.1.0"
+  resolved "http://r.npm.sankuai.com/@socket.io/redis-adapter/download/@socket.io/redis-adapter-7.1.0.tgz#66f854da3cc47b80a9f5d287e93a58af16e5c3fb"
+  integrity sha1-ZvhU2jzEe4Cp9dKH6TpYrxblw/s=
+  dependencies:
+    debug "~4.3.1"
+    notepack.io "~2.2.0"
+    socket.io-adapter "~2.3.0"
+    uid2 "0.0.3"
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -887,6 +985,11 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/component-emitter@^1.2.10":
+  version "1.2.11"
+  resolved "http://r.npm.sankuai.com/@types/component-emitter/download/@types/component-emitter-1.2.11.tgz#50d47d42b347253817a39709fef03ce66a108506"
+  integrity sha1-UNR9QrNHJTgXo5cJ/vA85moQhQY=
+
 "@types/connect@*":
   version "3.4.35"
   resolved "http://r.npm.sankuai.com/@types/connect/download/@types/connect-3.4.35.tgz#5fcf6ae445e4021d1fc2219a4873cc73a3bb2ad1"
@@ -894,10 +997,22 @@
   dependencies:
     "@types/node" "*"
 
+"@types/cookie@^0.4.1":
+  version "0.4.1"
+  resolved "http://r.npm.sankuai.com/@types/cookie/download/@types/cookie-0.4.1.tgz#bfd02c1f2224567676c1545199f87c3a861d878d"
+  integrity sha1-v9AsHyIkVnZ2wVRRmfh8OoYdh40=
+
 "@types/cookiejar@*":
   version "2.1.2"
   resolved "http://r.npm.sankuai.com/@types/cookiejar/download/@types/cookiejar-2.1.2.tgz#66ad9331f63fe8a3d3d9d8c6e3906dd10f6446e8"
   integrity sha1-Zq2TMfY/6KPT2djG45Bt0Q9kRug=
+
+"@types/cors@^2.8.12":
+  version "2.8.13"
+  resolved "http://r.npm.sankuai.com/@types/cors/download/@types/cors-2.8.13.tgz#b8ade22ba455a1b8cb3b5d3f35910fd204f84f94"
+  integrity sha1-uK3iK6RVobjLO10/NZEP0gT4T5Q=
+  dependencies:
+    "@types/node" "*"
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.4"
@@ -952,6 +1067,13 @@
   resolved "http://r.npm.sankuai.com/@types/http-errors/download/@types/http-errors-2.0.1.tgz#20172f9578b225f6c7da63446f56d4ce108d5a65"
   integrity sha1-IBcvlXiyJfbH2mNEb1bUzhCNWmU=
 
+"@types/ioredis@*":
+  version "4.28.10"
+  resolved "http://r.npm.sankuai.com/@types/ioredis/download/@types/ioredis-4.28.10.tgz#40ceb157a4141088d1394bb87c98ed09a75a06ff"
+  integrity sha1-QM6xV6QUEIjROUu4fJjtCadaBv8=
+  dependencies:
+    "@types/node" "*"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.4"
   resolved "http://r.npm.sankuai.com/@types/istanbul-lib-coverage/download/@types/istanbul-lib-coverage-2.0.4.tgz#8467d4b3c087805d63580480890791277ce35c44"
@@ -998,6 +1120,11 @@
   version "20.4.0"
   resolved "http://r.npm.sankuai.com/@types/node/download/@types/node-20.4.0.tgz#01d637d1891e419bc85763b46f42809cd2d5addb"
   integrity sha1-AdY30YkeQZvIV2O0b0KAnNLVrds=
+
+"@types/node@>=10.0.0":
+  version "20.4.1"
+  resolved "http://r.npm.sankuai.com/@types/node/download/@types/node-20.4.1.tgz#a6033a8718653c50ac4962977e14d0f984d9527d"
+  integrity sha1-pgM6hxhlPFCsSWKXfhTQ+YTZUn0=
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1060,6 +1187,11 @@
   integrity sha1-3bSgVoWXyarf+NvsWy6P3b6Gkvw=
   dependencies:
     "@types/superagent" "*"
+
+"@types/uuid@*":
+  version "9.0.2"
+  resolved "http://r.npm.sankuai.com/@types/uuid/download/@types/uuid-9.0.2.tgz#ede1d1b1e451548d44919dc226253e32a6952c4b"
+  integrity sha1-7eHRseRRVI1EkZ3CJiU+MqaVLEs=
 
 "@types/yargs-parser@*":
   version "21.0.0"
@@ -1288,7 +1420,7 @@
   resolved "http://r.npm.sankuai.com/@xtuc/long/download/@xtuc/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=
 
-accepts@~1.3.8:
+accepts@~1.3.4, accepts@~1.3.8:
   version "1.3.8"
   resolved "http://r.npm.sankuai.com/accepts/download/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
   integrity sha1-C/C+EltnAUrcsLCSHmLbe//hay4=
@@ -1439,6 +1571,13 @@ asynckit@^0.4.0:
   resolved "http://r.npm.sankuai.com/asynckit/download/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
+axios@0.21.1:
+  version "0.21.1"
+  resolved "http://r.npm.sankuai.com/axios/download/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+  dependencies:
+    follow-redirects "^1.10.0"
+
 babel-jest@^29.5.0:
   version "29.5.0"
   resolved "http://r.npm.sankuai.com/babel-jest/download/babel-jest-29.5.0.tgz#3fe3ddb109198e78b1c88f9ebdecd5e4fc2f50a5"
@@ -1508,6 +1647,11 @@ base64-js@^1.3.1:
   version "1.5.1"
   resolved "http://r.npm.sankuai.com/base64-js/download/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
+
+base64id@2.0.0, base64id@~2.0.0:
+  version "2.0.0"
+  resolved "http://r.npm.sankuai.com/base64id/download/base64id-2.0.0.tgz#2770ac6bc47d312af97a8bf9a634342e0cd25cb6"
+  integrity sha1-J3Csa8R9MSr5eov5pjQ0LgzSXLY=
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -1755,6 +1899,11 @@ clone@^1.0.2:
   resolved "http://r.npm.sankuai.com/clone/download/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
 
+cluster-key-slot@1.1.2, cluster-key-slot@^1.1.0:
+  version "1.1.2"
+  resolved "http://r.npm.sankuai.com/cluster-key-slot/download/cluster-key-slot-1.1.2.tgz#88ddaa46906e303b5de30d3153b7d9fe0a0c19ac"
+  integrity sha1-iN2qRpBuMDtd4w0xU7fZ/goMGaw=
+
 co@^4.6.0:
   version "4.6.0"
   resolved "http://r.npm.sankuai.com/co/download/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -1817,7 +1966,7 @@ comment-json@4.2.3:
     has-own-prop "^2.0.0"
     repeat-string "^1.6.1"
 
-component-emitter@^1.3.0:
+component-emitter@^1.3.0, component-emitter@~1.3.0:
   version "1.3.0"
   resolved "http://r.npm.sankuai.com/component-emitter/download/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
   integrity sha1-FuQHD7qK4ptnnyIVhT7hgasuq8A=
@@ -1874,6 +2023,11 @@ cookie@0.5.0:
   resolved "http://r.npm.sankuai.com/cookie/download/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha1-0fXXGt7GVYxY84mYfDZqpH6ZT4s=
 
+cookie@~0.4.1:
+  version "0.4.2"
+  resolved "http://r.npm.sankuai.com/cookie/download/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
+  integrity sha1-DkHyTeXs8xeUfIL8eJ4GqISCRDI=
+
 cookiejar@^2.1.4:
   version "2.1.4"
   resolved "http://r.npm.sankuai.com/cookiejar/download/cookiejar-2.1.4.tgz#ee669c1fea2cf42dc31585469d193fef0d65771b"
@@ -1884,7 +2038,7 @@ core-util-is@^1.0.3, core-util-is@~1.0.0:
   resolved "http://r.npm.sankuai.com/core-util-is/download/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U=
 
-cors@2.8.5:
+cors@2.8.5, cors@~2.8.5:
   version "2.8.5"
   resolved "http://r.npm.sankuai.com/cors/download/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
   integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
@@ -1924,7 +2078,7 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
+debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
   version "4.3.4"
   resolved "http://r.npm.sankuai.com/debug/download/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha1-Exn2V5NX8jONMzfSzdSRS7XcyGU=
@@ -1957,6 +2111,16 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "http://r.npm.sankuai.com/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+denque@^1.1.0:
+  version "1.5.1"
+  resolved "http://r.npm.sankuai.com/denque/download/denque-1.5.1.tgz#07f670e29c9a78f8faecb2566a1e2c11929c5cbf"
+  integrity sha1-B/Zw4pyaePj67LJWah4sEZKcXL8=
+
+denque@^2.1.0:
+  version "2.1.0"
+  resolved "http://r.npm.sankuai.com/denque/download/denque-2.1.0.tgz#e93e1a6569fb5e66f16a3c2a2964617d349d6ab1"
+  integrity sha1-6T4aZWn7XmbxajwqKWRhfTSdarE=
 
 depd@2.0.0:
   version "2.0.0"
@@ -2036,6 +2200,43 @@ end-of-stream@^1.1.0:
   integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
   dependencies:
     once "^1.4.0"
+
+engine.io-parser@~5.0.0, engine.io-parser@~5.0.3:
+  version "5.0.7"
+  resolved "http://r.npm.sankuai.com/engine.io-parser/download/engine.io-parser-5.0.7.tgz#ed5eae76c71f398284c578ab6deafd3ba7e4e4f6"
+  integrity sha1-7V6udscfOYKExXirber9O6fk5PY=
+
+engine.io@~6.0.0:
+  version "6.0.1"
+  resolved "http://r.npm.sankuai.com/engine.io/download/engine.io-6.0.1.tgz#4a37754c6067415e9bfbcc82e49e572437354615"
+  integrity sha1-Sjd1TGBnQV6b+8yC5J5XJDc1RhU=
+  dependencies:
+    "@types/cookie" "^0.4.1"
+    "@types/cors" "^2.8.12"
+    "@types/node" ">=10.0.0"
+    accepts "~1.3.4"
+    base64id "2.0.0"
+    cookie "~0.4.1"
+    cors "~2.8.5"
+    debug "~4.3.1"
+    engine.io-parser "~5.0.0"
+    ws "~8.2.3"
+
+engine.io@~6.1.0:
+  version "6.1.3"
+  resolved "http://r.npm.sankuai.com/engine.io/download/engine.io-6.1.3.tgz#f156293d011d99a3df5691ac29d63737c3302e6f"
+  integrity sha1-8VYpPQEdmaPfVpGsKdY3N8MwLm8=
+  dependencies:
+    "@types/cookie" "^0.4.1"
+    "@types/cors" "^2.8.12"
+    "@types/node" ">=10.0.0"
+    accepts "~1.3.4"
+    base64id "2.0.0"
+    cookie "~0.4.1"
+    cors "~2.8.5"
+    debug "~4.3.1"
+    engine.io-parser "~5.0.3"
+    ws "~8.2.3"
 
 enhanced-resolve@^5.0.0, enhanced-resolve@^5.15.0, enhanced-resolve@^5.7.0:
   version "5.15.0"
@@ -2337,6 +2538,11 @@ fast-levenshtein@^2.0.6:
   resolved "http://r.npm.sankuai.com/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-safe-stringify@2.0.7:
+  version "2.0.7"
+  resolved "http://r.npm.sankuai.com/fast-safe-stringify/download/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
+  integrity sha1-EkqohYmSYfaK7bQqfAgN6dpgh0M=
+
 fast-safe-stringify@2.1.1, fast-safe-stringify@^2.1.1:
   version "2.1.1"
   resolved "http://r.npm.sankuai.com/fast-safe-stringify/download/fast-safe-stringify-2.1.1.tgz#c406a83b6e70d9e35ce3b30a81141df30aeba884"
@@ -2419,6 +2625,11 @@ flatted@^3.1.0:
   resolved "http://r.npm.sankuai.com/flatted/download/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha1-YJ85IHy2FLidB2W0d8stQ3+/l4c=
 
+follow-redirects@^1.10.0:
+  version "1.15.2"
+  resolved "http://r.npm.sankuai.com/follow-redirects/download/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha1-tGCGQUS6Y/JoEJbydMTlcCbaLBM=
+
 fork-ts-checker-webpack-plugin@8.0.0:
   version "8.0.0"
   resolved "http://r.npm.sankuai.com/fork-ts-checker-webpack-plugin/download/fork-ts-checker-webpack-plugin-8.0.0.tgz#dae45dfe7298aa5d553e2580096ced79b6179504"
@@ -2494,6 +2705,11 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "http://r.npm.sankuai.com/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
+
+generic-pool@3.9.0:
+  version "3.9.0"
+  resolved "http://r.npm.sankuai.com/generic-pool/download/generic-pool-3.9.0.tgz#36f4a678e963f4fdb8707eab050823abc4e8f5e4"
+  integrity sha1-NvSmeOlj9P24cH6rBQgjq8To9eQ=
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -2767,6 +2983,38 @@ interpret@^1.0.0:
   version "1.4.0"
   resolved "http://r.npm.sankuai.com/interpret/download/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha1-Zlq4vE2iendKQFhOgS4+D6RbGh4=
+
+ioredis@^4:
+  version "4.28.5"
+  resolved "http://r.npm.sankuai.com/ioredis/download/ioredis-4.28.5.tgz#5c149e6a8d76a7f8fa8a504ffc85b7d5b6797f9f"
+  integrity sha1-XBSeao12p/j6ilBP/IW31bZ5f58=
+  dependencies:
+    cluster-key-slot "^1.1.0"
+    debug "^4.3.1"
+    denque "^1.1.0"
+    lodash.defaults "^4.2.0"
+    lodash.flatten "^4.4.0"
+    lodash.isarguments "^3.1.0"
+    p-map "^2.1.0"
+    redis-commands "1.7.0"
+    redis-errors "^1.2.0"
+    redis-parser "^3.0.0"
+    standard-as-callback "^2.1.0"
+
+ioredis@^5.3.2:
+  version "5.3.2"
+  resolved "http://r.npm.sankuai.com/ioredis/download/ioredis-5.3.2.tgz#9139f596f62fc9c72d873353ac5395bcf05709f7"
+  integrity sha1-kTn1lvYvyccthzNTrFOVvPBXCfc=
+  dependencies:
+    "@ioredis/commands" "^1.1.1"
+    cluster-key-slot "^1.1.0"
+    debug "^4.3.4"
+    denque "^2.1.0"
+    lodash.defaults "^4.2.0"
+    lodash.isarguments "^3.1.0"
+    redis-errors "^1.2.0"
+    redis-parser "^3.0.0"
+    standard-as-callback "^2.1.0"
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -3306,6 +3554,11 @@ json-schema-traverse@^1.0.0:
   resolved "http://r.npm.sankuai.com/json-schema-traverse/download/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha1-rnvLNlard6c7pcSb9lTzjmtoYOI=
 
+json-socket@0.3.0:
+  version "0.3.0"
+  resolved "http://r.npm.sankuai.com/json-socket/download/json-socket-0.3.0.tgz#f4b953c685bb8e8bd0b72438f5208d9a0799ae07"
+  integrity sha1-9LlTxoW7jovQtyQ49SCNmgeZrgc=
+
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "http://r.npm.sankuai.com/json-stable-stringify-without-jsonify/download/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
@@ -3371,6 +3624,21 @@ locate-path@^6.0.0:
   integrity sha1-VTIeswn+u8WcSAHZMackUqaB0oY=
   dependencies:
     p-locate "^5.0.0"
+
+lodash.defaults@^4.2.0:
+  version "4.2.0"
+  resolved "http://r.npm.sankuai.com/lodash.defaults/download/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
+  integrity sha1-0JF4cW/+pN3p5ft7N/bwgCJ0WAw=
+
+lodash.flatten@^4.4.0:
+  version "4.4.0"
+  resolved "http://r.npm.sankuai.com/lodash.flatten/download/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
+
+lodash.isarguments@^3.1.0:
+  version "3.1.0"
+  resolved "http://r.npm.sankuai.com/lodash.isarguments/download/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
+  integrity sha1-L1c9hcaiQon/AGY7SRwdM4/zRYo=
 
 lodash.memoize@4.x:
   version "4.1.2"
@@ -3601,6 +3869,20 @@ neo-async@^2.6.2:
   resolved "http://r.npm.sankuai.com/neo-async/download/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
 
+nestjs-redis@^1.3.3:
+  version "1.3.3"
+  resolved "http://r.npm.sankuai.com/nestjs-redis/download/nestjs-redis-1.3.3.tgz#9b285653bbe3af92cf7ecd1e2225b8bf2df32ad2"
+  integrity sha1-myhWU7vjr5LPfs0eIiW4vy3zKtI=
+  dependencies:
+    "@nestjs/common" "^7.4.4"
+    "@nestjs/core" "^7.4.4"
+    "@types/ioredis" "*"
+    "@types/uuid" "*"
+    ioredis "^4"
+    reflect-metadata "*"
+    rxjs "^6"
+    uuid "^8"
+
 node-abort-controller@^3.0.1:
   version "3.1.1"
   resolved "http://r.npm.sankuai.com/node-abort-controller/download/node-abort-controller-3.1.1.tgz#a94377e964a9a37ac3976d848cb5c765833b8548"
@@ -3635,6 +3917,11 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "http://r.npm.sankuai.com/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
+notepack.io@~2.2.0:
+  version "2.2.0"
+  resolved "http://r.npm.sankuai.com/notepack.io/download/notepack.io-2.2.0.tgz#d7ea71d1cb90094f88c6f3c8d84277c2d0cd101c"
+  integrity sha1-1+px0cuQCU+IxvPI2EJ3wtDNEBw=
+
 npm-run-path@^4.0.0, npm-run-path@^4.0.1:
   version "4.0.1"
   resolved "http://r.npm.sankuai.com/npm-run-path/download/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
@@ -3646,6 +3933,16 @@ object-assign@^4, object-assign@^4.1.1:
   version "4.1.1"
   resolved "http://r.npm.sankuai.com/object-assign/download/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+
+object-hash@2.1.1:
+  version "2.1.1"
+  resolved "http://r.npm.sankuai.com/object-hash/download/object-hash-2.1.1.tgz#9447d0279b4fcf80cff3259bf66a1dc73afabe09"
+  integrity sha1-lEfQJ5tPz4DP8yWb9modxzr6vgk=
+
+object-hash@2.2.0:
+  version "2.2.0"
+  resolved "http://r.npm.sankuai.com/object-hash/download/object-hash-2.2.0.tgz#5ad518581eefc443bd763472b8ff2e9c2c0d54a5"
+  integrity sha1-WtUYWB7vxEO9djRyuP8unCwNVKU=
 
 object-inspect@^1.9.0:
   version "1.12.3"
@@ -3740,6 +4037,11 @@ p-locate@^5.0.0:
   integrity sha1-g8gxXGeFAF470CGDlBHJ4RDm2DQ=
   dependencies:
     p-limit "^3.0.2"
+
+p-map@^2.1.0:
+  version "2.1.0"
+  resolved "http://r.npm.sankuai.com/p-map/download/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
+  integrity sha1-MQko/u+cnsxltosXaTAYpmXOoXU=
 
 p-try@^2.0.0:
   version "2.2.0"
@@ -3995,7 +4297,36 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-reflect-metadata@^0.1.13:
+redis-commands@1.7.0:
+  version "1.7.0"
+  resolved "http://r.npm.sankuai.com/redis-commands/download/redis-commands-1.7.0.tgz#15a6fea2d58281e27b1cd1acfb4b293e278c3a89"
+  integrity sha1-Fab+otWCgeJ7HNGs+0spPieMOok=
+
+redis-errors@^1.0.0, redis-errors@^1.2.0:
+  version "1.2.0"
+  resolved "http://r.npm.sankuai.com/redis-errors/download/redis-errors-1.2.0.tgz#eb62d2adb15e4eaf4610c04afe1529384250abad"
+  integrity sha1-62LSrbFeTq9GEMBK/hUpOEJQq60=
+
+redis-parser@^3.0.0:
+  version "3.0.0"
+  resolved "http://r.npm.sankuai.com/redis-parser/download/redis-parser-3.0.0.tgz#b66d828cdcafe6b4b8a428a7def4c6bcac31c8b4"
+  integrity sha1-tm2CjNyv5rS4pCin3vTGvKwxyLQ=
+  dependencies:
+    redis-errors "^1.0.0"
+
+redis@^4.6.7:
+  version "4.6.7"
+  resolved "http://r.npm.sankuai.com/redis/download/redis-4.6.7.tgz#c73123ad0b572776223f172ec78185adb72a6b57"
+  integrity sha1-xzEjrQtXJ3YiPxcux4GFrbcqa1c=
+  dependencies:
+    "@redis/bloom" "1.2.0"
+    "@redis/client" "1.5.8"
+    "@redis/graph" "1.1.0"
+    "@redis/json" "1.0.4"
+    "@redis/search" "1.1.3"
+    "@redis/time-series" "1.0.4"
+
+reflect-metadata@*, reflect-metadata@^0.1.13:
   version "0.1.13"
   resolved "http://r.npm.sankuai.com/reflect-metadata/download/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha1-Z648pXyXKiqhZCsQ/jY/4y1J3Ag=
@@ -4091,6 +4422,13 @@ rxjs@7.8.1, rxjs@^7.5.5, rxjs@^7.8.1:
   integrity sha1-b289meqARCke/ZLnx/z1YsQFdUM=
   dependencies:
     tslib "^2.1.0"
+
+rxjs@^6:
+  version "6.6.7"
+  resolved "http://r.npm.sankuai.com/rxjs/download/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
+  integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
+  dependencies:
+    tslib "^1.9.0"
 
 safe-buffer@5.2.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   version "5.2.1"
@@ -4214,6 +4552,44 @@ slash@^3.0.0:
   resolved "http://r.npm.sankuai.com/slash/download/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ=
 
+socket.io-adapter@~2.3.0, socket.io-adapter@~2.3.2, socket.io-adapter@~2.3.3:
+  version "2.3.3"
+  resolved "http://r.npm.sankuai.com/socket.io-adapter/download/socket.io-adapter-2.3.3.tgz#4d6111e4d42e9f7646e365b4f578269821f13486"
+  integrity sha1-TWER5NQun3ZG42W09XgmmCHxNIY=
+
+socket.io-parser@~4.0.4:
+  version "4.0.5"
+  resolved "http://r.npm.sankuai.com/socket.io-parser/download/socket.io-parser-4.0.5.tgz#cb404382c32324cc962f27f3a44058cf6e0552df"
+  integrity sha1-y0BDgsMjJMyWLyfzpEBYz24FUt8=
+  dependencies:
+    "@types/component-emitter" "^1.2.10"
+    component-emitter "~1.3.0"
+    debug "~4.3.1"
+
+socket.io@4.3.2:
+  version "4.3.2"
+  resolved "http://r.npm.sankuai.com/socket.io/download/socket.io-4.3.2.tgz#85ae0cf5cf18acbce648ac9f48aba66df8cea6bf"
+  integrity sha1-ha4M9c8YrLzmSKyfSKumbfjOpr8=
+  dependencies:
+    accepts "~1.3.4"
+    base64id "~2.0.0"
+    debug "~4.3.2"
+    engine.io "~6.0.0"
+    socket.io-adapter "~2.3.2"
+    socket.io-parser "~4.0.4"
+
+socket.io@4.4.0:
+  version "4.4.0"
+  resolved "http://r.npm.sankuai.com/socket.io/download/socket.io-4.4.0.tgz#8140a0db2c22235f88a6dceb867e4d5c9bd70507"
+  integrity sha1-gUCg2ywiI1+Iptzrhn5NXJvXBQc=
+  dependencies:
+    accepts "~1.3.4"
+    base64id "~2.0.0"
+    debug "~4.3.2"
+    engine.io "~6.1.0"
+    socket.io-adapter "~2.3.3"
+    socket.io-parser "~4.0.4"
+
 source-map-support@0.5.13:
   version "0.5.13"
   resolved "http://r.npm.sankuai.com/source-map-support/download/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
@@ -4251,6 +4627,11 @@ stack-utils@^2.0.3:
   integrity sha1-qvB0gWnAL8M8gjKrzPkz9Uocw08=
   dependencies:
     escape-string-regexp "^2.0.0"
+
+standard-as-callback@^2.1.0:
+  version "2.1.0"
+  resolved "http://r.npm.sankuai.com/standard-as-callback/download/standard-as-callback-2.1.0.tgz#8953fc05359868a77b5b9739a665c5977bb7df45"
+  integrity sha1-iVP8BTWYaKd7W5c5pmXFl3u330U=
 
 statuses@2.0.1:
   version "2.0.1"
@@ -4520,12 +4901,22 @@ tsconfig-paths@4.2.0, tsconfig-paths@^4.1.2, tsconfig-paths@^4.2.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
+tslib@2.2.0:
+  version "2.2.0"
+  resolved "http://r.npm.sankuai.com/tslib/download/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
+  integrity sha1-+yxHWXfjXiQTEe3iaTzuHsZpj1w=
+
+tslib@2.3.1:
+  version "2.3.1"
+  resolved "http://r.npm.sankuai.com/tslib/download/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
+
 tslib@2.6.0, tslib@^2.1.0:
   version "2.6.0"
   resolved "http://r.npm.sankuai.com/tslib/download/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
   integrity sha1-spWFRoTb2hZOGB0lmiLNd53Ne8M=
 
-tslib@^1.8.1:
+tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "http://r.npm.sankuai.com/tslib/download/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
@@ -4577,6 +4968,11 @@ typescript@5.1.6, typescript@^5.1.3:
   resolved "http://r.npm.sankuai.com/typescript/download/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
   integrity sha1-AvisICttrSwN1eCRN0W0ejeZgnQ=
 
+uid2@0.0.3:
+  version "0.0.3"
+  resolved "http://r.npm.sankuai.com/uid2/download/uid2-0.0.3.tgz#483126e11774df2f71b8b639dcd799c376162b82"
+  integrity sha1-SDEm4Rd03y9xuLY53NeZw3YWK4I=
+
 uid@2.0.2:
   version "2.0.2"
   resolved "http://r.npm.sankuai.com/uid/download/uid-2.0.2.tgz#4b5782abf0f2feeefc00fa88006b2b3b7af3e3b9"
@@ -4618,6 +5014,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "http://r.npm.sankuai.com/utils-merge/download/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@8.3.2, uuid@^8:
+  version "8.3.2"
+  resolved "http://r.npm.sankuai.com/uuid/download/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha1-gNW1ztJxu5r2xEXyGhoExgbO++I=
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
@@ -4749,6 +5150,11 @@ write-file-atomic@^4.0.2:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
+ws@~8.2.3:
+  version "8.2.3"
+  resolved "http://r.npm.sankuai.com/ws/download/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
+  integrity sha1-Y6VkVtsbBDZ9C3IaC4DK5ti+y7o=
+
 xtend@^4.0.0:
   version "4.0.2"
   resolved "http://r.npm.sankuai.com/xtend/download/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
@@ -4759,15 +5165,15 @@ y18n@^5.0.5:
   resolved "http://r.npm.sankuai.com/y18n/download/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
   integrity sha1-f0k00PfKjFb5UxSTndzS3ZHOHVU=
 
+yallist@4.0.0, yallist@^4.0.0:
+  version "4.0.0"
+  resolved "http://r.npm.sankuai.com/yallist/download/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
+  integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
+
 yallist@^3.0.2:
   version "3.1.1"
   resolved "http://r.npm.sankuai.com/yallist/download/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
-
-yallist@^4.0.0:
-  version "4.0.0"
-  resolved "http://r.npm.sankuai.com/yallist/download/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
-  integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
 
 yaml@^1.10.0:
   version "1.10.2"
